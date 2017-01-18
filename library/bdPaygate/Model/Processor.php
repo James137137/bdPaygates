@@ -10,6 +10,7 @@ class bdPaygate_Model_Processor extends XenForo_Model
             bdPaygate_Processor_Abstract::CURRENCY_AUD => 'AUD',
             bdPaygate_Processor_Abstract::CURRENCY_GBP => 'GBP',
             bdPaygate_Processor_Abstract::CURRENCY_EUR => 'EUR',
+			bdPaygate_Processor_Abstract::CURRENCY_NZD => 'NZD',
         );
     }
 

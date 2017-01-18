@@ -17,6 +17,7 @@ class bdPaygate_Processor_PayPal extends bdPaygate_Processor_Abstract
             bdPaygate_Processor_Abstract::CURRENCY_AUD,
             bdPaygate_Processor_Abstract::CURRENCY_GBP,
             bdPaygate_Processor_Abstract::CURRENCY_EUR,
+			bdPaygate_Processor_Abstract::CURRENCY_NZD,
         );
     }
 
