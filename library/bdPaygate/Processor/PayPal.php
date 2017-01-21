@@ -214,7 +214,7 @@ EOF;
             // one time payment
             $form = <<<EOF
 <form action="{$formAction}" method="POST">
-	<input type="hidden" name="cmd" value="_xclick" />
+	<input type="hidden" name="cmd" value="_donations" />
 	<input type="hidden" name="amount" value="{$amount}" />
 
 	<input type="submit" value="{$callToAction}" class="button" />
